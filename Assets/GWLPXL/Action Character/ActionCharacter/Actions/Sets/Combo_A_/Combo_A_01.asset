@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da24ac05a11d5b4b835668c25d4e6ae, type: 3}
+  m_Name: Combo_A_01
+  m_EditorClassIdentifier: 
+  Movement:
+    Movements:
+      ScriptedMovement:
+        Name: Combo_A_01
+        AirborneCost: 0
+        CharacterRequirements:
+          RequiredStates: 00000000
+          RequiresTarget: 0
+        MovementBehavior:
+          MovementSequence:
+          - AnimatorVars:
+              ApplyRootMotion: 1
+              AnimatorStateName: Combo_A_01
+              CrossFadeDuration: 0
+              Layer: 0
+              AnimatorSpeed: 3
+              Clip: {fileID: -203655887218126122, guid: 911113a9629917743815c2cf3975d4c9, type: 3}
+            BlockingOptions:
+              InitialBlocking:
+                EndActionOnBlocked: 0
+                DirectionChecks: 
+                BlockingLayers:
+                  serializedVersion: 2
+                  m_Bits: 524480
+                DistanceCheck: 1
+            Multipliers:
+              MoveMulti: 0
+              RotateMulti: 0
+              FallMulti: 0
+              AirborneMulti: 0
+            TargetOptions:
+              KeepTargetOnComplete: 1
+              AcquireTargetType: 0
+              AcquireDistance: 1
+              AcquireFinalLocation: 0
+              AcquireDuration: 0.75
+              TargetCurve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 2
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.08945234
+                  value: 0.6861813
+                  inSlope: 1.4110372
+                  outSlope: 1.4110372
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.33333334
+                  outWeight: 0.33333334
+                - serializedVersion: 3
+                  time: 1
+                  value: 1
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            TravelX:
+              Distance: 0
+              Duration: 0.379
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 2.3188455
+                  outSlope: 2.3188455
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0.07030303
+                - serializedVersion: 3
+                  time: 0.1265564
+                  value: 0.61538315
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.42142522
+                  value: -0.63664377
+                  inSlope: -1.3790118
+                  outSlope: -1.3790118
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.33333334
+                  outWeight: 0.1558611
+                - serializedVersion: 3
+                  time: 1
+                  value: 0
+                  inSlope: -2.694545
+                  outSlope: -2.694545
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.06787884
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 0
+            TravelY:
+              Distance: 2.35
+              Duration: 0.397
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 4.6861687
+                  outSlope: 3.3333333
+                  tangentMode: 65
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0.08484848
+                - serializedVersion: 3
+                  time: 0.3
+                  value: 1
+                  inSlope: 3.3333333
+                  outSlope: -0.45639223
+                  tangentMode: 5
+                  weightedMode: 0
+                  inWeight: 0.06424242
+                  outWeight: 0.09956709
+                - serializedVersion: 3
+                  time: 1
+                  value: 0
+                  inSlope: -0.060979024
+                  outSlope: -0.060979024
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.14042455
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 0
+            TravelZ:
+              Distance: 2.01
+              Duration: 0.374
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 2
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: 1
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 0
+            BufferVars:
+              UseBufferedInputForwardAtStart: 1
+              MinBufferInputNormalizedTime: 0.066
+              MaxBufferInputNormalziedTime: 0.898
+            ExtendOptions:
+              UseExtend: 0
+              ShouldExitOnFail: 0
+            EarlyExitOptions:
+              EarlyExitStates: []
+              EarlyExits:
+                CanExitTime: 0.1
+            HitBoxOptions:
+              GiverOptions:
+                Boxes: []
+              TakerOptions:
+                Boxes: []
+            TimingOptions:
+              AdditionalDuration: 0
+              MinActionDuration: 0.9
+            CustomCodeAssets:
+              CustomCodes:
+              - {fileID: 11400000, guid: 0d7667d50d59f184ca4679a08660bfeb, type: 2}
+  AutoName: 0

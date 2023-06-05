@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da24ac05a11d5b4b835668c25d4e6ae, type: 3}
+  m_Name: Air Dash
+  m_EditorClassIdentifier: 
+  Movement:
+    Movements:
+      ScriptedMovement:
+        Name: Air Dash
+        AirborneCost: 0
+        CharacterRequirements:
+          RequiredStates: 01000000
+        MovementBehavior:
+          MovementSequence:
+          - BlockingOptions:
+              InitialBlocking:
+                EndActionOnBlocked: 1
+                DirectionChecks: 0a000000
+                BlockingLayers:
+                  serializedVersion: 2
+                  m_Bits: 192
+                DistanceCheck: 1
+            Multipliers:
+              MoveMulti: 0
+              RotateMulti: 0
+              FallMulti: 0
+              AirborneMulti: 0
+            TargetOptions:
+              UseTargeting: 0
+              TargetCurve:
+                serializedVersion: 2
+                m_Curve: []
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+              Layer:
+                serializedVersion: 2
+                m_Bits: 0
+              Angle: 0
+              RadiusCheck: 0
+              DurationToTarget: 0
+              TagsToFilter: []
+            TravelX:
+              Distance: 0
+              Duration: 0
+              Curve:
+                serializedVersion: 2
+                m_Curve: []
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            TravelY:
+              Distance: 0
+              Duration: 0
+              Curve:
+                serializedVersion: 2
+                m_Curve: []
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            TravelZ:
+              Distance: 3
+              Duration: 0.323
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 2
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: 1
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            AnimatorVars:
+              ApplyRootMotion: 0
+              AnimatorStateName: Jump
+              CrossFadeDuration: 0.25
+              Layer: 0
+              AnimatorSpeed: 1
+              Clip: {fileID: -203655887218126122, guid: 526d12ab348d28f469c6a3ffe9025ba7, type: 3}
+            BufferVars:
+              UseBufferedInputForwardAtStart: 1
+              MinBufferInputNormalizedTime: 0.25
+              MaxBufferInputNormalziedTime: 0.75
+            ExtendOptions:
+              UseExtend: 0
+              ShouldExitOnFail: 1
+            EarlyExitOptions:
+              EarlyExitStates: []
+              EarlyExits:
+                CanExitTime: 0.1
+            HitBoxOptions:
+              GiverOptions:
+                Boxes: []
+              TakerOptions:
+                Boxes: []
+            TimingOptions:
+              AdditionalDuration: 0
+              MinActionDuration: 1
+            CustomCodeAssets:
+              CustomCodes: []
+  AutoName: 0

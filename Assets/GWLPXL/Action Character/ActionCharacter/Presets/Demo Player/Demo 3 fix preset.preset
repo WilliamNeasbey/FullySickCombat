@@ -1,0 +1,1703 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Demo 3 fix preset
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: ae0f289045fc6fa4ca43bda8dacc1894, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LoadoutName
+    value: Demo Set 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WeaponOverrides.Parent
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WeaponOverrides.Prefab
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Overrides.ClipOverrides.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.size
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Name
+    value: Combo_A_01=>Combo_A_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 55dd50d6613b0584581f11810103471a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[0].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Name
+    value: Combo_A_01=>Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[1].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Name
+    value: Combo_A_01=>Combo_A_02=>Combo_A_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[0].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[1].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 1ca09f730c3024743a108d0fb7c0da9c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[2].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[2].Pieces.Array.data[2].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Name
+    value: Combo_A_01=>Combo_A_02=>Combo_A_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[0].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[1].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[2].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[3].Pieces.Array.data[2].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Name
+    value: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_03_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[0].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[1].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[2].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[2].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[3].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[4].Pieces.Array.data[3].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Name
+    value: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[0].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[1].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[2].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[2].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[3].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[5].Pieces.Array.data[3].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Name
+    value: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_04=>Combo_A_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[0].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[0].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[1].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[2].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[2].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[3].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[3].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[4].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: d46b6f360071f03408932765a94516ae, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[4].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[4].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[4].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[6].Pieces.Array.data[4].Forgiveness
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Name
+    value: Combo_B_01=>Combo_B_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 0a7b57c80b0d492469ebd23eec971190, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[1].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[7].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Name
+    value: Combo_B_01=>Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[8].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Name
+    value: Combo_B_01=>Combo_B_02=>Combo_B_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 3bf05f4e41c13cc4f86cb735b1354ce0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[2].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[9].Pieces.Array.data[2].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Name
+    value: Combo_B_01=>Combo_B_02=>Combo_B_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[2].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[10].Pieces.Array.data[2].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Name
+    value: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_03_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[2].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[2].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[3].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[11].Pieces.Array.data[3].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Name
+    value: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[2].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[2].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[3].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[12].Pieces.Array.data[3].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Name
+    value: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_04=>Combo_B_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[0].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[0].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[0].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[1].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[1].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[1].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[1].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[2].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[2].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[2].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[2].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[3].InputSlotIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[3].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[3].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[3].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[4].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: d46b6f360071f03408932765a94516ae, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[4].InputSlotIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[4].Cancels.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[4].Cancels.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[13].Pieces.Array.data[4].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Name
+    value: Jump
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Pieces.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Pieces.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 4c1585995e400e04a87beb112f5d784b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Pieces.Array.data[0].InputSlotIndex
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Pieces.Array.data[0].Cancels.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Combos.Array.data[14].Pieces.Array.data[0].Forgiveness
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.size
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Action
+    value: Combo_A_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.StartingAction
+    value: Combo_A_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.RequiredActionStates.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.Nexts.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.Nexts.Array.data[0]
+    value: Combo_A_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.Nexts.Array.data[1]
+    value: Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].Flow.ComboStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[0].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Action
+    value: Combo_A_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.StartingAction
+    value: Combo_A_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[1].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Action
+    value: Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.StartingAction
+    value: Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.Nexts.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.Nexts.Array.data[0]
+    value: Combo_A_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.Nexts.Array.data[1]
+    value: Combo_A_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[2].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Action
+    value: Combo_A_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.StartingAction
+    value: Combo_A_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[3].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Action
+    value: Combo_A_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.StartingAction
+    value: Combo_A_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.Nexts.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.Nexts.Array.data[0]
+    value: Combo_A_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[4].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Action
+    value: Combo_A_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.StartingAction
+    value: Combo_A_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.Nexts.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.Nexts.Array.data[0]
+    value: Combo_B_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[5].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Action
+    value: Combo_B_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.StartingAction
+    value: Combo_B_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.RequiredActionStates.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_A_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.RequiredActionStates.Array.data[1]
+    value: Combo_B_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[6].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Action
+    value: Combo_B_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.StartingAction
+    value: Combo_B_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.RequiredActionStates.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.Nexts.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.Nexts.Array.data[0]
+    value: Combo_B_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.Nexts.Array.data[1]
+    value: Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].Flow.ComboStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[7].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Action
+    value: Combo_B_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.StartingAction
+    value: Combo_B_01_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_B_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[8].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Action
+    value: Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.StartingAction
+    value: Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_B_01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.Nexts.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.Nexts.Array.data[0]
+    value: Combo_B_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.Nexts.Array.data[1]
+    value: Combo_B_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[9].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Action
+    value: Combo_B_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.StartingAction
+    value: Combo_B_02_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[10].InputIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Action
+    value: Combo_B_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.StartingAction
+    value: Combo_B_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_B_02
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.Nexts.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.Nexts.Array.data[0]
+    value: Combo_B_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[11].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Action
+    value: Combo_B_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.StartingAction
+    value: Combo_B_04
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.RequiredActionStates.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.RequiredActionStates.Array.data[0]
+    value: Combo_B_03
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.Nexts.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.Nexts.Array.data[0]
+    value: Combo_B_04_Finisher
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.EarlyExits.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.EarlyExits.Array.data[0]
+    value: Dash
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].Flow.ComboStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[12].InputIndex
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Action
+    value: Jump
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.StartingAction
+    value: Jump
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.RequiredActionStates.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.Nexts.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.ForgivenessDuration
+    value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.EarlyExits.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].Flow.ComboStart
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ActionSets.Array.data[13].InputIndex
+    value: 3
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

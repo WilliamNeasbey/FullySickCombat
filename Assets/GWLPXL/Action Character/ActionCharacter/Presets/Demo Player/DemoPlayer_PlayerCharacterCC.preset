@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DemoPlayer_PlayerCharacterCC
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 98ee512e4bdf09948b496172a5ea1b91, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Events.UnityEvents.OnActionSequenceStarted.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Events.UnityEvents.OnActionSequenceEnded.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Events.UnityEvents.OnActionAdded.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Events.UnityEvents.OnActionRemoved.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: movementTemplate
+    value: 
+    objectReference: {fileID: 11400000, guid: 553871f726cece1498a45047fcb2e7e1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: config
+    value: 
+    objectReference: {fileID: 11400000, guid: 1e4d48e973b699642bdd8269b4939bea, type: 2}
+  - target: {fileID: 0}
+    propertyPath: loadOutSO
+    value: 
+    objectReference: {fileID: 11400000, guid: 1b3cf053e1ed835439707e997c3ed2d9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: actionsdatabaseSO
+    value: 
+    objectReference: {fileID: 11400000, guid: d1612dc4fbced244c9813da8001b4bf6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: inputActionMap
+    value: 
+    objectReference: {fileID: 11400000, guid: 55a37917aa11fa142804c40ace1ed05b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: inputWrapper
+    value: 
+    objectReference: {fileID: 11400000, guid: aad141dd50fc6b745988cb3ab4c2810e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: persist
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerNumber
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

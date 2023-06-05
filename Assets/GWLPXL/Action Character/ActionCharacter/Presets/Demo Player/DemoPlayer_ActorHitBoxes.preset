@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DemoPlayer_ActorHitBoxes
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: ddca99d72555f6b4db093363d4b841e6, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxLayer
+    value: Hitbox
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnTriggerEnter.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnTriggerExit.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnTriggerStay.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnCollisionEnter.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnCollisionExit.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.UnityPhysicsEvents.OnCollisionStay.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[0].Name
+    value: LeftHand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[0].Collider
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[1].Name
+    value: Righthand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[1].Collider
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[2].Name
+    value: LeftLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[2].Collider
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[3].Name
+    value: RightLeg
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[3].Collider
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[4].Name
+    value: Shoulders
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.HitBoxes.Array.data[4].Collider
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.DefaultHitBoxes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.data[0].GroupName
+    value: Hands
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.data[0].HitBoxes.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.data[0].HitBoxes.Array.data[0]
+    value: LeftHand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.data[0].HitBoxes.Array.data[1]
+    value: Righthand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitBoxesBase.GroupHitboxEnabler.UseDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.DamageEvents.UnityEvents.OnHitCollision.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.DamageEvents.UnityEvents.OnHitTrigger.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.OnEnter
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.OnStay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.OnExit
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.MaxPerAction
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.HitSender.UseDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitGivers.useDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxLayer
+    value: Hitbox
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnTriggerEnter.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnTriggerExit.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnTriggerStay.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnCollisionEnter.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnCollisionExit.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.UnityPhysicsEvents.OnCollisionStay.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.HitBoxes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.DefaultHitBoxes.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.DefaultHitBoxes.Array.data[0]
+    value: Chest
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.GroupHitboxEnabler.Groups.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitBoxesBase.GroupHitboxEnabler.UseDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitReceiver.HitTakerEvents.UnityEvents.OnHitCollision.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitReceiver.HitTakerEvents.UnityEvents.OnHitTrigger.m_PersistentCalls.m_Calls.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.HitReceiver.UseDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: HitBoxes.HitTakers.UseDebug
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AutoSetup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: TeamTag
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

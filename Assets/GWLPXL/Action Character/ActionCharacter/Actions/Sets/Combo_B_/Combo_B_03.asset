@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da24ac05a11d5b4b835668c25d4e6ae, type: 3}
+  m_Name: Combo_B_03
+  m_EditorClassIdentifier: 
+  Movement:
+    Movements:
+      ScriptedMovement:
+        Name: Combo_B_03
+        AirborneCost: 0
+        CharacterRequirements:
+          RequiredStates: 00000000
+          RequiresTarget: 0
+        MovementBehavior:
+          MovementSequence:
+          - AnimatorVars:
+              ApplyRootMotion: 1
+              AnimatorStateName: Combo_B_03
+              CrossFadeDuration: 0
+              Layer: 0
+              AnimatorSpeed: 2
+              Clip: {fileID: -203655887218126122, guid: 5785ebe59bbb3cd4b8db413d1b213cd8, type: 3}
+            BlockingOptions:
+              InitialBlocking:
+                EndActionOnBlocked: 1
+                DirectionChecks: 
+                BlockingLayers:
+                  serializedVersion: 2
+                  m_Bits: 0
+                DistanceCheck: 1
+            Multipliers:
+              MoveMulti: 0
+              RotateMulti: 0
+              FallMulti: 0
+              AirborneMulti: 0
+            TargetOptions:
+              KeepTargetOnComplete: 1
+              AcquireTargetType: 0
+              AcquireDistance: 1
+              AcquireFinalLocation: 0
+              AcquireDuration: 0.75
+              TargetCurve:
+                serializedVersion: 2
+                m_Curve: []
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            TravelX:
+              Distance: 0
+              Duration: 0
+              Curve:
+                serializedVersion: 2
+                m_Curve: []
+                m_PreInfinity: 0
+                m_PostInfinity: 0
+                m_RotationOrder: 0
+            TravelY:
+              Distance: 0
+              Duration: 0
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 1
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.58823603
+                  value: 0.5424403
+                  inSlope: -1.7129458
+                  outSlope: -1.7129458
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.33333334
+                  outWeight: 0.2122504
+                - serializedVersion: 3
+                  time: 1
+                  value: 0
+                  inSlope: -0.2106631
+                  outSlope: -0.2106631
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0.35646176
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 0
+            TravelZ:
+              Distance: 3
+              Duration: 0.25
+              Curve:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0
+                  inSlope: 0
+                  outSlope: 0
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: 1
+                  inSlope: 2
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 0
+            BufferVars:
+              UseBufferedInputForwardAtStart: 1
+              MinBufferInputNormalizedTime: 0.117
+              MaxBufferInputNormalziedTime: 0.869
+            ExtendOptions:
+              UseExtend: 0
+              ShouldExitOnFail: 1
+            EarlyExitOptions:
+              EarlyExitStates: []
+              EarlyExits:
+                CanExitTime: 0.1
+            HitBoxOptions:
+              GiverOptions:
+                Boxes: []
+              TakerOptions:
+                Boxes: []
+            TimingOptions:
+              AdditionalDuration: 0
+              MinActionDuration: 1
+            CustomCodeAssets:
+              CustomCodes: []
+  AutoName: 1

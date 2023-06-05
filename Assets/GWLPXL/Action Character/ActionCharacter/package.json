@@ -1,0 +1,19 @@
+{
+  "name": "com.gwlpxl.actioncharacter",
+  "version": "1.00",
+  "displayName": "Action Character",
+  "description": "An extendable action & hitbox system.",
+  "unity": "2020.3",
+  "documentationUrl": "https://docs.google.com/document/d/1dEBBowTNisy172rpfWHPLnG1QOmjyxI6GBPFHh9uj70/edit?usp=sharing",
+  "dependencies": {
+  },
+  "keywords": [
+    "action",
+    "character"
+  ],
+  "author": {
+    "name": "Greg W. Lyons",
+    "email": "gwlenglish@gmail.com"
+
+  }
+}

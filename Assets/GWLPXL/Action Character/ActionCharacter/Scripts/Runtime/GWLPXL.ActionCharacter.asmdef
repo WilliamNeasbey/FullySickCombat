@@ -1,0 +1,14 @@
+{
+    "name": "GWLPXL.ActionCharacter",
+    "rootNamespace": "GWLPXL.ActionCharacter",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

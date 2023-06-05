@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0f289045fc6fa4ca43bda8dacc1894, type: 3}
+  m_Name: Demo Loadout 3
+  m_EditorClassIdentifier: 
+  LoadoutName: Demo Set 3
+  WeaponOverrides:
+    Parent: 
+    Prefab: {fileID: 0}
+  Overrides:
+    ClipOverrides: []
+  Combos:
+  - Name: Combo_A_01=>Combo_A_01_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 55dd50d6613b0584581f11810103471a, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_A_01=>Combo_A_02
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_A_01=>Combo_A_02=>Combo_A_02_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 1ca09f730c3024743a108d0fb7c0da9c, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+  - Name: Combo_A_01=>Combo_A_02=>Combo_A_03
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+  - Name: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_03_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+  - Name: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_04
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+  - Name: Combo_A_01=>Combo_A_02=>Combo_A_03=>Combo_A_04=>Combo_A_04_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: ae9fc07ae2e74ce4f84fd6997a4a492b, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 2f9184aa86e0d6843b3426da249184c2, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: ed613e5736adfb84ea914f0477195bc9, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: 3dca379023985084d8c71011735fac96, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+    - Action: {fileID: 11400000, guid: d46b6f360071f03408932765a94516ae, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0.25
+  - Name: Combo_B_01=>Combo_B_01_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 0a7b57c80b0d492469ebd23eec971190, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02=>Combo_B_02_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 3bf05f4e41c13cc4f86cb735b1354ce0, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02=>Combo_B_03
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_03_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_04
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Combo_B_01=>Combo_B_02=>Combo_B_03=>Combo_B_04=>Combo_B_04_Finisher
+    Pieces:
+    - Action: {fileID: 11400000, guid: 5fc789aa8f9c9274ebed73f8697e3423, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 07b4c48fbd3d2fb4eb5a053e34254500, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: af24962ab108078428563e97ac6c3458, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: 832be157d111b7349b56beffb4ebdc57, type: 2}
+      InputSlotIndex: 1
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+    - Action: {fileID: 11400000, guid: d46b6f360071f03408932765a94516ae, type: 2}
+      InputSlotIndex: 0
+      Cancels:
+      - {fileID: 11400000, guid: 7177ab35061b67344af950326b15872e, type: 2}
+      Forgiveness: 0
+  - Name: Jump
+    Pieces:
+    - Action: {fileID: 11400000, guid: 4c1585995e400e04a87beb112f5d784b, type: 2}
+      InputSlotIndex: 3
+      Cancels: []
+      Forgiveness: 0
+  ActionSets:
+  - Action: Combo_A_01
+    Flow:
+      StartingAction: Combo_A_01
+      RequiredActionStates: []
+      Nexts:
+      - Combo_A_01_Finisher
+      - Combo_A_02
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 1
+    InputIndex: 0
+  - Action: Combo_A_01_Finisher
+    Flow:
+      StartingAction: Combo_A_01_Finisher
+      RequiredActionStates:
+      - Combo_A_01
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 1
+  - Action: Combo_A_02
+    Flow:
+      StartingAction: Combo_A_02
+      RequiredActionStates:
+      - Combo_A_01
+      Nexts:
+      - Combo_A_02_Finisher
+      - Combo_A_03
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_A_02_Finisher
+    Flow:
+      StartingAction: Combo_A_02_Finisher
+      RequiredActionStates:
+      - Combo_A_02
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 1
+  - Action: Combo_A_03
+    Flow:
+      StartingAction: Combo_A_03
+      RequiredActionStates:
+      - Combo_A_02
+      Nexts:
+      - Combo_A_04
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_A_04
+    Flow:
+      StartingAction: Combo_A_04
+      RequiredActionStates:
+      - Combo_A_03
+      Nexts:
+      - Combo_B_04_Finisher
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_B_04_Finisher
+    Flow:
+      StartingAction: Combo_B_04_Finisher
+      RequiredActionStates:
+      - Combo_A_04
+      - Combo_B_04
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_B_01
+    Flow:
+      StartingAction: Combo_B_01
+      RequiredActionStates: []
+      Nexts:
+      - Combo_B_01_Finisher
+      - Combo_B_02
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 1
+    InputIndex: 1
+  - Action: Combo_B_01_Finisher
+    Flow:
+      StartingAction: Combo_B_01_Finisher
+      RequiredActionStates:
+      - Combo_B_01
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_B_02
+    Flow:
+      StartingAction: Combo_B_02
+      RequiredActionStates:
+      - Combo_B_01
+      Nexts:
+      - Combo_B_02_Finisher
+      - Combo_B_03
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 1
+  - Action: Combo_B_02_Finisher
+    Flow:
+      StartingAction: Combo_B_02_Finisher
+      RequiredActionStates:
+      - Combo_B_02
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 0
+  - Action: Combo_B_03
+    Flow:
+      StartingAction: Combo_B_03
+      RequiredActionStates:
+      - Combo_B_02
+      Nexts:
+      - Combo_B_04
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 1
+  - Action: Combo_B_04
+    Flow:
+      StartingAction: Combo_B_04
+      RequiredActionStates:
+      - Combo_B_03
+      Nexts:
+      - Combo_B_04_Finisher
+      ForgivenessDuration: 0.25
+      EarlyExits:
+      - Dash
+      ComboStart: 0
+    InputIndex: 1
+  - Action: Jump
+    Flow:
+      StartingAction: Jump
+      RequiredActionStates: []
+      Nexts: []
+      ForgivenessDuration: 0.25
+      EarlyExits: []
+      ComboStart: 1
+    InputIndex: 3

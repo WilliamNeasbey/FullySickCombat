@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad80633f459bdbe48a15932f668dfa4c, type: 3}
+  m_Name: Demo Air Combo DB
+  m_EditorClassIdentifier: 
+  Database:
+    Actions:
+    - {fileID: 11400000, guid: b7ac6f99d5322b94987038fa15fdad8c, type: 2}
+    - {fileID: 11400000, guid: b3a50a9665d52e840881638a7d7f46d8, type: 2}
+    - {fileID: 11400000, guid: 34d9dab7469cc1b4eae5ef4142227b1b, type: 2}

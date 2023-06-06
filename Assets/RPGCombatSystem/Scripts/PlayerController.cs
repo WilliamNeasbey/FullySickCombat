@@ -143,7 +143,7 @@ public class PlayerController : MonoBehaviour
             if (moveDirection.magnitude > 0) //Fixes the problem when there is no movement
             {
                 //To rotate the controller when moving and position it correctly relative to the camera
-                charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
+                // Willy charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
 
                 //Smoothly rotate the character in the xz plane towards the direction of movement
                 Vector3 targetActPosition = new Vector3(movIndicator.transform.position.x, childPlayer.transform.position.y, movIndicator.transform.position.z);
@@ -192,7 +192,7 @@ public class PlayerController : MonoBehaviour
                 if (moveDirectionTemp.magnitude > 0) //Fixes the problem when there is no movement
                 {
                     //To rotate the controller when moving and position it correctly relative to the camera
-                    charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
+                    // Willy charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
 
                     //Smoothly rotate the character in the xz plane towards the direction of movement
                     Vector3 targetActPosition = new Vector3(movIndicator.transform.position.x, childPlayer.transform.position.y, movIndicator.transform.position.z);

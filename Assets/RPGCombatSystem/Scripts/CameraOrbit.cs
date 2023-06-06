@@ -15,7 +15,6 @@ public class CameraOrbit : MonoBehaviour
 	private float y = .0f;
 	public bool zoom;
 	public float zoomSpeed = 120.0f;
-	private bool isMouseMoving = false;
 
 	void Start()
 	{
@@ -31,32 +30,22 @@ public class CameraOrbit : MonoBehaviour
 	{
 		if (refCamera)
 		{
-			// Check if the mouse is moving
-			if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
+			//Rotates the camera
+			x += (float)(Input.GetAxis("Mouse X") * xSpeed * Time.deltaTime);
+
+			if (zoom)
 			{
-				isMouseMoving = true;
-
-				// Update camera rotation
-				x += Input.GetAxis("Mouse X") * xSpeed * Time.deltaTime;
-
-				if (zoom)
-				{
-					distance += Input.GetAxis("Mouse Y");
-				}
-				else
-				{
-					y -= Input.GetAxis("Mouse Y") * zoomSpeed * Time.deltaTime;
-				}
-				y = ClampAngle(y, yMinLimit, yMaxLimit);
-				Quaternion rotation = Quaternion.Euler(y, x, 0);
-				Vector3 position = rotation * new Vector3(0.0f, 0.0f, -distance) + (refCamera.position + offsetCamera);
-				transform.rotation = rotation;
-				transform.position = position;
+				distance += (float)(Input.GetAxis("Mouse Y"));
 			}
 			else
 			{
-				isMouseMoving = false;
+				y -= (float)(Input.GetAxis("Mouse Y") * zoomSpeed * Time.deltaTime);
 			}
+			y = ClampAngle(y, yMinLimit, yMaxLimit);//This communicates with the function below and delimits the limits of the camera
+			Quaternion rotation = Quaternion.Euler(y, x, 0);
+			Vector3 position = rotation * new Vector3(0.0f, 0.0f, -distance) + (refCamera.position + offsetCamera);
+			transform.rotation = rotation;
+			transform.position = position;
 
 			//Here begins the code that is responsible for bringing the camera closer by detecting the wall
 			float dist = distance + 1.0f; // distance to the camera + 1.0 so the camera doesnt jump 1 unit in if it hits someting far out

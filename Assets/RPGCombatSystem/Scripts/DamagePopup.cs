@@ -15,7 +15,7 @@ public class DamagePopup : MonoBehaviour
 	public void SetUp(int amount, Color textC)
     {
         textMesh = GetComponent<TextMesh>();
-        playerTransform = Camera.main.transform;
+       // playerTransform = Camera.main.transform;
         textColor = textC;
         textMesh.text = amount.ToString();
         textMesh.color = textColor;

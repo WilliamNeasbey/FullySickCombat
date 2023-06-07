@@ -1,13 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerChunLi : MonoBehaviour
 {
     [HideInInspector] public CharacterController charCont;
     [HideInInspector] public Animator anim;
     public GameObject childPlayer;
-    public Camera cam;
     public GameObject movIndicator; //Where is the character moving to
 
     [HideInInspector] public SoundManager soundMan;
@@ -38,6 +38,13 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public bool canMove = true; //If player can move or not because is attaking or hitted
     private bool hit = false; //If player is hitted it will be true
 
+    // Camera variables
+    public CinemachineVirtualCamera virtualCamera;
+    private Transform cameraTransform;
+    private float cameraDistance = 10f;
+    public float cameraSpeed = 2.0f;
+    private Vector2 cameraInput;
+
     void Awake()
     {
         charCont = GetComponent<CharacterController>();
@@ -45,20 +52,35 @@ public class PlayerController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         currentDashTime = maxDashTime;
         distToGround = charCont.bounds.extents.y;
+
+        // Get the virtual camera and its transform
+        virtualCamera = GameObject.FindGameObjectWithTag("VirtualCamera").GetComponent<CinemachineVirtualCamera>();
+        if (virtualCamera == null)
+        {
+            Debug.LogError("Virtual camera not found in the scene!");
+        }
+        else
+        {
+            cameraTransform = virtualCamera.transform;
+        }
     }
+   
 
     void Update()
     {
+        // Handle camera movement
+        HandleCameraMovement();
+
         if (charCont.isGrounded)
         {
             if (!wasGrounded) //If it is the frame when player touches the ground
             {
                 canJump = true;
                 anim.SetBool("Jump", false);
-                if (fallTime > 0.2f )
+                if (fallTime > 0.2f)
                 {
                     soundMan.PlaySound("Land");
-                    if(!hit)
+                    if (!hit)
                         anim.CrossFade("FallingEnd", 0.1f);
                 }
                 fallTime = 0f;
@@ -93,7 +115,7 @@ public class PlayerController : MonoBehaviour
                 // consumes the impact energy each cycle:
                 impact = Vector3.Lerp(impact, Vector3.zero, 5 * Time.deltaTime);
 
-                if (charCont.isGrounded && impact.magnitude <= 0.2f) 
+                if (charCont.isGrounded && impact.magnitude <= 0.2f)
                 {
                     hit = false;
                     canMove = true;
@@ -143,7 +165,7 @@ public class PlayerController : MonoBehaviour
             if (moveDirection.magnitude > 0) //Fixes the problem when there is no movement
             {
                 //To rotate the controller when moving and position it correctly relative to the camera
-                 charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
+                charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, transform.rotation.y, charCont.transform.rotation.z, transform.rotation.w);
 
                 //Smoothly rotate the character in the xz plane towards the direction of movement
                 Vector3 targetActPosition = new Vector3(movIndicator.transform.position.x, childPlayer.transform.position.y, movIndicator.transform.position.z);
@@ -192,7 +214,7 @@ public class PlayerController : MonoBehaviour
                 if (moveDirectionTemp.magnitude > 0) //Fixes the problem when there is no movement
                 {
                     //To rotate the controller when moving and position it correctly relative to the camera
-                    charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, cam.transform.rotation.y, charCont.transform.rotation.z, cam.transform.rotation.w);
+                    charCont.transform.rotation = new Quaternion(charCont.transform.rotation.x, transform.rotation.y, charCont.transform.rotation.z, transform.rotation.w);
 
                     //Smoothly rotate the character in the xz plane towards the direction of movement
                     Vector3 targetActPosition = new Vector3(movIndicator.transform.position.x, childPlayer.transform.position.y, movIndicator.transform.position.z);
@@ -212,6 +234,29 @@ public class PlayerController : MonoBehaviour
 
         // Move the controller
         charCont.Move(moveDirection * Time.deltaTime);
+    }
+
+    void HandleCameraMovement()
+    {
+        // Get the camera input
+        float cameraInputX = Input.GetAxis("Mouse X");
+        float cameraInputY = Input.GetAxis("Mouse Y");
+
+        // Rotate the player based on camera input
+        transform.Rotate(Vector3.up, cameraInputX * cameraSpeed);
+
+        // Adjust the camera distance based on camera input
+        cameraDistance -= cameraInputY * cameraSpeed;
+        cameraDistance = Mathf.Clamp(cameraDistance, 5f, 15f);
+
+        // Calculate the camera rotation around the player
+        Quaternion cameraRotation = Quaternion.Euler(cameraInputY * cameraSpeed, 0f, 0f);
+
+        // Rotate the camera around the player
+        Vector3 cameraOffset = cameraRotation * Vector3.back * cameraDistance;
+        Vector3 cameraPosition = transform.position + cameraOffset;
+        cameraTransform.position = cameraPosition;
+        cameraTransform.LookAt(transform.position);
     }
 
     public void AddImpact(Vector3 dir, float force) //Apply a force to the player
@@ -257,14 +302,8 @@ public class PlayerController : MonoBehaviour
         //groundAngle = Vector3.Angle(groundNormal, Vector3.up);
     }
 
-    public bool IsDashing() //Checks if player if dashing
+    public bool IsDashing()
     {
         return currentDashTime < maxDashTime;
-    }
-
-    public void EnableMove(bool camMoveT) //Enables or disables the character movement
-    {
-        if(!hit)
-            canMove = camMoveT;
     }
 }

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Weapon
+  - CinemachineTarget
+  - VirtualCamera
+  - Virtual camera
   layers:
   - Default
   - TransparentFX

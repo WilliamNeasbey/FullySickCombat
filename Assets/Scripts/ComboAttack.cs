@@ -5,12 +5,12 @@ using UnityEngine;
 public class ComboAttack : MonoBehaviour
 {
     private Animator anim;
-    private PlayerController playerCont;
+    private PlayerChunLi playerCont;
     private int comboCount; // Tracks the current combo count
 
     void Awake()
     {
-        playerCont = GetComponent<PlayerController>();
+        playerCont = GetComponent<PlayerChunLi>();
         anim = GetComponentInChildren<Animator>();
         comboCount = 0;
     }

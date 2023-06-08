@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerChunLi : MonoBehaviour
 {
@@ -45,6 +47,12 @@ public class PlayerChunLi : MonoBehaviour
     public float cameraSpeed = 2.0f;
     private Vector2 cameraInput;
 
+    //Player Health
+    public float maxHealth = 100f;
+    public float currentHealth = 100f;
+    public Text healthText; // Reference to the UI text component for displaying health
+
+
     void Awake()
     {
         charCont = GetComponent<CharacterController>();
@@ -68,8 +76,11 @@ public class PlayerChunLi : MonoBehaviour
 
     void Update()
     {
+
         // Handle camera movement
         HandleCameraMovement();
+
+        UpdateHealthBar();
 
         if (charCont.isGrounded)
         {
@@ -234,7 +245,63 @@ public class PlayerChunLi : MonoBehaviour
 
         // Move the controller
         charCont.Move(moveDirection * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            TakeDamagePercentage(0.1f);
+        }
     }
+
+    public float GetHealthPercentage()
+    {
+        return currentHealth / maxHealth;
+    }
+
+    void UpdateHealthBar()
+    {
+        // Update the health UI text with the current health value
+        healthText.text = "Health: " + currentHealth.ToString("F0");
+    }
+
+    public void ApplyDMG(float damage)
+    {
+        currentHealth -= damage;
+
+        UpdateHealthBar();
+
+        CheckGameOver();
+    }
+
+    public void TakeDamagePercentage(float percentage)
+    {
+        float damage = maxHealth * percentage;
+        currentHealth -= damage;
+
+        // Check if the player's health is less than or equal to 0
+        if (currentHealth <= 0)
+        {
+            // Call a function to load a new scene here
+            LoadGameOverScene();
+        }
+    }
+
+    void LoadGameOverScene()
+    {
+        // Load the game over scene or perform any other necessary actions
+        SceneManager.LoadScene("GameOverScene");
+    }
+
+
+
+    void CheckGameOver()
+    {
+        if (currentHealth <= 0)
+        {
+            // Load the game over scene
+            SceneManager.LoadScene("GameOverScene");
+        }
+    }
+
 
     void HandleCameraMovement()
     {
@@ -281,6 +348,15 @@ public class PlayerChunLi : MonoBehaviour
             anim.GetComponent<AnimatorEvents>().DisableWeaponColl();
             AddImpact(dir, force);
         }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        currentHealth -= damage;
+
+        UpdateHealthBar();
+
+        CheckGameOver();
     }
 
     float DistToGround() //Calculates the distance to the ground when starts to fall

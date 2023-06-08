@@ -7,7 +7,7 @@ public class AnimatorEventsEn : MonoBehaviour
     //private Animator anim;
     private SoundManager soundMan;
 
-    public WeaponEnemy weapon; 
+    public EnemyWeapon weapon; 
 
     public bool isAttacking = false; //To prevent colliders from being activated if there is delay in the animation
 

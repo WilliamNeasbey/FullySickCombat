@@ -31,7 +31,7 @@ public class PlayerChunLi : MonoBehaviour
     public float dashSpeed = 20; //Dash speed of the player
     private Vector3 dashDir;
     private bool canDash = true;
-    private int jumpsRemaining = 2; // Number of jumps the player can perform
+    
 
     private Vector3 moveDirection = Vector3.zero;
 
@@ -53,6 +53,10 @@ public class PlayerChunLi : MonoBehaviour
     public float currentHealth = 100f;
     public Text healthText; // Reference to the UI text component for displaying health
 
+    //double jump
+    public int maxJumps = 2; // Maximum number of jumps the player can perform
+    private int jumpsRemaining; // Number of jumps remaining
+
 
     void Awake()
     {
@@ -61,6 +65,7 @@ public class PlayerChunLi : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         currentDashTime = maxDashTime;
         distToGround = charCont.bounds.extents.y;
+        jumpsRemaining = maxJumps;
 
         // Get the virtual camera and its transform
         virtualCamera = GameObject.FindGameObjectWithTag("VirtualCamera").GetComponent<CinemachineVirtualCamera>();
@@ -87,6 +92,7 @@ public class PlayerChunLi : MonoBehaviour
         {
             if (!wasGrounded) //If it is the frame when player touches the ground
             {
+                jumpsRemaining = 2; // Reset the jumps remaining when the player touches the ground
                 canJump = true;
                 anim.SetBool("Jump", false);
                 if (fallTime > 0.2f)
@@ -197,15 +203,7 @@ public class PlayerChunLi : MonoBehaviour
                 moveDirection.z += (1f - groundNormal.y) * groundNormal.z;
             }
 
-            if (Input.GetButtonDown("Jump") && canJump)
-            {
-                moveDirection.y = jumpSpeed;
-                canJump = false;
-                anim.SetFloat("SpeedY", moveDirection.y);
-                anim.Play("Falling");
-                anim.SetBool("Jump", true);
-                soundMan.PlaySound("Jump");
-            }
+          
 
             if (Input.GetButtonDown("Jump") && canJump)
             {
@@ -219,10 +217,6 @@ public class PlayerChunLi : MonoBehaviour
                     soundMan.PlaySound("Jump");
                     jumpsRemaining--; // Decrease the number of jumps remaining
                 }
-            }
-            else
-            {
-                jumpsRemaining = 2; // Reset the jumps remaining when the player touches the ground
             }
 
         }

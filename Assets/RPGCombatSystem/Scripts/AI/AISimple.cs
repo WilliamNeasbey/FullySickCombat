@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class AISimple : MonoBehaviour
 {
-
     NavMeshAgent agent;
     Animator anim;
     SoundManager soundMan;
@@ -29,8 +28,44 @@ public class AISimple : MonoBehaviour
     float visAngle = 90.0f; //Angle of the cone vision
     float meleeDist = 1.5f; //Distance from which the enemy will attack the player
 
-    public GameObject damageTextPrefab;
-    public Transform damageTextPos;
+    public int maxHealth = 100; // Maximum health of the AI
+    private int currentHealth; // Current health of the AI
+
+    private bool canAttack = true;
+
+    void Start()
+    {
+        currentHealth = maxHealth; // Set the initial health to maximum
+    }
+
+    public void ApplyDmg(DmgInfo dmgInfo)
+    {
+        if (!isInvincible)
+        {
+            isInvincible = true;
+            ChangeState(STATE.HIT);
+            soundMan.PlaySound("Hit");
+
+            // Deduct the damage from the AI's health
+            currentHealth -= dmgInfo.dmgValue;
+
+            // Check if the AI's health has reached zero or below
+            if (currentHealth <= 0)
+            {
+                // AI is defeated
+                Die();
+            }
+        }
+    }
+
+    private void Die()
+    {
+        // Handle AI death, such as playing death animation, disabling components, or triggering game events
+        // ...
+
+        // Delete the AI object
+        Destroy(gameObject);
+    }
 
     void Awake()
     {
@@ -39,7 +74,7 @@ public class AISimple : MonoBehaviour
         animEv = this.GetComponentInChildren<AnimatorEventsEn>();
         soundMan = GetComponent<SoundManager>();
 
-        if (patrolPoints.Count != 0) //Id there is patrol points
+        if (patrolPoints.Count != 0) // If there are patrol points
             ChangeState(STATE.PATROL);
     }
 
@@ -107,16 +142,24 @@ public class AISimple : MonoBehaviour
                 else if (waitTimer >= 0.5f && isInvincible)
                 {
                     isInvincible = false;
+                    canAttack = false;
+                    StartCoroutine(EnableAttackAfterSeconds(2f));
                 }
                 else if (waitTimer >= 1.25f)
                 {
-                    if (CanAttackPlayer())
+                    if (CanAttackPlayer() && canAttack)
                         ChangeState(STATE.CHASE);
                     else
                         ChangeState(STATE.PATROL);
                 }
                 break;
         }
+    }
+
+    private IEnumerator EnableAttackAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        canAttack = true;
     }
 
     public bool CanSeePlayer()
@@ -212,29 +255,12 @@ public class AISimple : MonoBehaviour
                 waitTimer = 0;
                 break;
         }
-
         currState = newState;
     }
 
-    public void ApplyDmg(DmgInfo dmgInfo)
+    public void LookPlayer(float rotSpeed)
     {
-        if (!isInvincible)
-        {
-            isInvincible = true;
-            ChangeState(STATE.HIT);
-            soundMan.PlaySound("Hit");
-            GameObject dmgText = Instantiate(damageTextPrefab, damageTextPos.position, Quaternion.identity);
-            dmgText.GetComponent<DamagePopup>().SetUp(dmgInfo.dmgValue + Random.Range(-10, 10), dmgInfo.textColor);
-        }
-    }
-
-    private void LookPlayer(float speedRot)
-    {
-        Vector3 direction = player.position - transform.position;
-        float angle = Vector3.Angle(direction, transform.forward);
-        direction.y = 0;
-
-        if(direction!= Vector3.zero)
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * speedRot);
+        Quaternion rotation = Quaternion.LookRotation(player.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * rotSpeed);
     }
 }

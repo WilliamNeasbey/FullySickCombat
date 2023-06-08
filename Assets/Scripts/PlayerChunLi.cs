@@ -31,6 +31,7 @@ public class PlayerChunLi : MonoBehaviour
     public float dashSpeed = 20; //Dash speed of the player
     private Vector3 dashDir;
     private bool canDash = true;
+    private int jumpsRemaining = 2; // Number of jumps the player can perform
 
     private Vector3 moveDirection = Vector3.zero;
 
@@ -204,6 +205,24 @@ public class PlayerChunLi : MonoBehaviour
                 anim.Play("Falling");
                 anim.SetBool("Jump", true);
                 soundMan.PlaySound("Jump");
+            }
+
+            if (Input.GetButtonDown("Jump") && canJump)
+            {
+                if (jumpsRemaining > 0) // Check if the player has jumps remaining
+                {
+                    moveDirection.y = jumpSpeed;
+                    canJump = false;
+                    anim.SetFloat("SpeedY", moveDirection.y);
+                    anim.Play("Falling");
+                    anim.SetBool("Jump", true);
+                    soundMan.PlaySound("Jump");
+                    jumpsRemaining--; // Decrease the number of jumps remaining
+                }
+            }
+            else
+            {
+                jumpsRemaining = 2; // Reset the jumps remaining when the player touches the ground
             }
 
         }
